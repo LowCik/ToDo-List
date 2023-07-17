@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: rgb(13, 82, 138);
+}
+
+ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 3px 0px 16px 30px;
+  background-color: lightgoldenrodyellow;
+  max-width: fit-content;
+}
+li {
+  border: 1px solid rgb(160, 128, 24);
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+textarea {
+  resize: none;
+}
+textarea:active {
+  background-color: orange;
+  border: 2px solid rgb(144, 221, 129);
+}
