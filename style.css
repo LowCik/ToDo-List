@@ -3,21 +3,61 @@ body {
   background-color: rgb(13, 82, 138);
 }
 
+h2{
+  margin:0px;
+}
+
 ul {
+  display: flex;
+  flex-direction: column;
   margin-left: 1rem;
   margin-right: 1rem;
-  padding: 3px 0px 16px 30px;
+  padding: 3px 0px 10px 10px;
   background-color: lightgoldenrodyellow;
   max-width: fit-content;
+  min-width: 400px;
+  -webkit-box-shadow: 2px 6px 2px -1px #bb761b, 5px 13px 7px -1px #805620;
+  box-shadow: 2px 6px 2px -1px #b47624, 5px 13px 7px -1px #805620;
 }
-li {
-  border: 1px solid rgb(160, 128, 24);
-  list-style: none;
+.list-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px;
+}
+
+button {
+  background-color: #a06420;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 50%;
+}
+.handle {
+  min-width: 30px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 8px;
   margin-bottom: 8px;
+  border: 2px solid rgb(247, 233, 206);
 }
 
 textarea {
   resize: none;
+  background-color: lightgoldenrodyellow;
+  border-style:dashed;
 }
 textarea:active {
   background-color: orange;
